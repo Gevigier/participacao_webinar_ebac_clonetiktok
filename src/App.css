@@ -21,15 +21,14 @@ html{
   position: relative;
 }
 
-/* Esconde a scrollbar no Chrome, Safari e Opera */
-
 .app__videos::-webkit-scrollbar{
+/* Esconde a scrollbar no Chrome, Safari e Opera */
   display: none;
-}
 
 /* Esconde a scrollbar no Explorer, Edge e Firefox */
-
-.app__videos::-webkit-scrollbar{
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+
+
